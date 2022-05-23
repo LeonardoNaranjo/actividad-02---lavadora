@@ -1,4 +1,4 @@
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
         . . # . .
         . # # # .
@@ -47,4 +47,5 @@ input.onButtonPressed(Button.A, function () {
         # . . . #
         `)
     basic.pause(6000)
+    basic.clearScreen()
 })
